@@ -1,4 +1,4 @@
-@inbook{kzhou2017humandetect,
+@inproceedings{kzhou2017humandetect,
 title = {Detecting Humans in RGB-D Data with CNNs},
 author = {Kaiyang Zhou and Adeline Paiement and Majid Mirmehdi},
 year = {2017},

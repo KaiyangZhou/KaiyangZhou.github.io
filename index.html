@@ -19,13 +19,12 @@
 }
 p { font-size: 16px; }
 h1 { padding: 0; margin: 0; font-size: 30px; }
-h2 { font-size: 25px; margin: 0; padding: 0; }
-body { padding: 0; font-family: Arial; font-size: 16px; background-color: #fff; }
-.title { width: 750px; margin: 5px auto; }
-.container { width: 888px; margin: 0px auto; border-radius: 10px;  background-color: #fff; padding: 20px;  clear: both;}
-#bio { padding-top: 50px; }
-#me { border: 0 solid black; margin-bottom: 50px; border-radius: 10px; }
-#sidebar { margin-left: 50px; margin-right: 50px; border: 0 solid black; float: left; margin-bottom: 0;}
+h2 { font-size: 25px; margin: 0; padding: 0; border-bottom: 2px solid #aaaaaa; }
+body { padding: 0; font-family: Georgia; font-size: 16px; background-color: #eeeeee; }
+.container { width: 888px; margin: 0px auto; border-radius: 0px;  background-color: #fff; padding: 20px;  clear: both;}
+#bio { padding-top: 0px; }
+#me { border: 0 solid black; margin-bottom: 0px; border-radius: 15px; }
+#sidebar { margin-left: 50px; margin-right: 50px; border: 0 solid black; float: left; margin-bottom: 0px;}
 a { text-decoration: none; }
 a:hover { text-decoration: underline; }
 a, a:visited { color: #0050e7; }
@@ -33,8 +32,8 @@ a, a:visited { color: #0050e7; }
 </head>
 
 <body>
-	<div class="title">
-		<div id="sidebar"><img src="images/kzhou.JPG" vspace="50px" width="200px" id="me" itemprop="photo"></div>
+	<div class="container">
+		<div id="sidebar"><img src="images/kzhou.JPG" vspace="0px" width="200px" id="me" itemprop="photo"></div>
 		<div id="bio">
 			<h1>
 				<span itemprop="name">Kaiyang Zhou</span>
@@ -59,15 +58,16 @@ a, a:visited { color: #0050e7; }
 		<p align="justify">
 		    I am a PhD student in Computer Science at <a href="http://www.qmul.ac.uk/" target="_blank">Queen Mary University of London</a>, supervised by <a href="https://www.eecs.qmul.ac.uk/~txiang/" target="_blank">Tao Xiang</a> and <a href="http://www.eecs.qmul.ac.uk/~andrea/" target="_blank">Andrea Cavallaro</a>. My research interests are computer vision, machine learning and deep learning.
 		    <br> <br>
-		    Prior to my PhD study, I spent one year in <a href="http://www.siat.ac.cn/jgsz/kyxt/jcs/yjdy/dmtjc/" target="_blank">Multimedia Research Center, SIAT, Chinese Academy of Sciences</a> as research assistant, working with <a href="http://mmlab.siat.ac.cn/yuqiao/" target="_blank">Yu Qiao</a> on video summarization using recurrent neural networks. I hold an MSc (Distinction) in Machine Learning from <a href="http://www.bristol.ac.uk/" target="_blank">University of Bristol</a> and a BSc (First Class) in Computer Science from <a href="https://www.ulster.ac.uk/home" target="_blank">University of Ulster</a>.
+		    Prior to my PhD study, I was doing research with <a href="http://mmlab.siat.ac.cn/yuqiao/" target="_blank">Yu Qiao</a> on video summarization in <a href="http://www.siat.ac.cn/jgsz/kyxt/jcs/yjdy/dmtjc/" target="_blank">Multimedia Research Center, SIAT, Chinese Academy of Sciences</a>. I hold an MSc (Distinction) in Machine Learning from <a href="http://www.bristol.ac.uk/" target="_blank">University of Bristol</a> and a BSc (First Class) in Computer Science from <a href="https://www.ulster.ac.uk/home" target="_blank">University of Ulster</a>.
 		</p>
 	</div>
 
     <div class="container">
 		<h2>Publication</h2>
 		<p align="justify">
-			<b>Detecting Humans in RGB-D Data with CNNs</b>. <u>Kaiyang Zhou</u>, Adeline Paiement, and Majid Mirmehdi. <br>
-			In <em>IAPR International Conference on Machine Vision Applications (MVA)</em>, 2017.
+			<b>Detecting Humans in RGB-D Data with CNNs</b>. <br>
+            <u>Kaiyang Zhou</u>, Adeline Paiement, and Majid Mirmehdi. <br>
+			<em>IAPR International Conference on Machine Vision Applications (MVA)</em>, 2017. <br>
 			[<a href="files/MVA17.pdf" target="_blank">PDF</a>]
 			[<a href="https://github.com/KaiyangZhou/ROI-Selection" target="_blank">ROI selection code</a>]
 		</p>
@@ -76,11 +76,14 @@ a, a:visited { color: #0050e7; }
     <div class="container">
 		<h2>Thesis</h2>
     	<p align="justify">
-			<b>People Detection with Convolutional Neural Networks in RGB-D Data</b>. <em>MSc Thesis, University of Bristol</em>, 2016. [<a href="files/ZHOU_MSc_Thesis.pdf" target="_blank">PDF</a>] <br>
-			Supervised by <a href="http://www.cs.bris.ac.uk/~majid/" target="_blank">Majid Mirmehdi</a> and <a href="http://cs.swansea.ac.uk/~csadeline/" target="_blank">Adeline Paiement</a>
+			<b>People Detection with Convolutional Neural Networks in RGB-D Data</b>. <br>
+            <em>MSc Thesis, University of Bristol</em>, 2016. <br>
+			Supervised by <a href="http://www.cs.bris.ac.uk/~majid/" target="_blank">Majid Mirmehdi</a> and <a href="http://cs.swansea.ac.uk/~csadeline/" target="_blank">Adeline Paiement</a>. <br>
+            [<a href="files/ZHOU_MSc_Thesis.pdf" target="_blank">PDF</a>]
 			<br><br>
-			<b>Computer Vision Based Local Navigation for Mobile Robot</b>. <em>BSc Thesis, University of Ulster</em>, 2015. <br>
-			Supervised by <a href="https://www.ulster.ac.uk/staff/i-rano" target="_blank">Inaki Rano</a>
+			<b>Computer Vision Based Local Navigation for Mobile Robot</b>. <br>
+            <em>BSc Thesis, University of Ulster</em>, 2015. <br>
+			Supervised by <a href="https://www.ulster.ac.uk/staff/i-rano" target="_blank">Inaki Rano</a>.
 		</p>
     </div>
 

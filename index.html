@@ -5,7 +5,7 @@
 <!-- Meta tags for search engines to crawl -->
 <meta name="robots" content="index, follow">
 <meta name="description" content="Kaiyang Zhou's academic website">
-<meta name="keywords" content="Kaiyang Zhou; Zhou Kaiyang; Computer Vision; Machine Learning; Deep Learning; Queen Mary University of London; University of Bristol;">
+<meta name="keywords" content="Kaiyang Zhou; Zhou Kaiyang; Computer Vision; Machine Learning; Deep Learning; Queen Mary University of London;">
 <meta name="author" content="Kaiyang Zhou">
 <link rel="author" href="kaiyangzhou.github.io">
 
@@ -20,7 +20,7 @@
 p { font-size: 15px; }
 h1 { padding: 0; margin: 0; font-size: 20px; }
 h2 { font-size: 18px; margin: 0; padding: 0; border-bottom: 1px solid #aaaaaa; }
-body { padding: 0; font-family: Lucida Grande; font-size: 15px; background-color: #fff; }
+body { padding: 0; font-family: Lato, Verdana, Helvetica, sans-serif; font-size: 15px; background-color: #fff; }
 .container { width: 1000px; margin: 0px auto; border-radius: 0px;  background-color: #fff; padding: 15px;  clear: both;}
 #me { margin-left: 30px; margin-right: 20px; border-radius: 15px; float: left; }
 a:link, a:visited {
@@ -28,63 +28,14 @@ a:link, a:visited {
     display: inline-block;
     text-align: center;
     color: blue;
+    color: #1772d0;
 }
 a:hover, a:active {
     text-decoration: underline;
     display: inline-block;
     text-align: center;
-    background-color: #f2eaff;
     border-radius: 5px;
-}
-
-a.link2paper {
-    text-decoration: none;
-    background-color: #0f98fc;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-a.link2paper:hover {
-    background-color: #5eb7f9;
-    text-decoration: none;
-}
-
-a.link2code {
-    text-decoration: none;
-    background-color: #00843d;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-a.link2code:hover {
-    background-color: #43ad74;
-    text-decoration: none;
-}
-a.link2slides {
-    text-decoration: none;
-    background-color: #f28826;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-a.link2slides:hover {
-    background-color: #f2a863;
-    text-decoration: none;
-}
-a.link2poster {
-    text-decoration: none;
-    background-color: #ef21d3;
-    color: white;
-    padding: 2px 5px;
-    border-radius: 5px;
-    font-size: 12px;
-}
-a.link2poster:hover {
-    background-color: #f95ee4;
-    text-decoration: none;
+    color: #f09228;
 }
 
 </style>
@@ -93,18 +44,18 @@ a.link2poster:hover {
 <body>
     <div class="container">
         <div style="float: left">
-            <img src="images/kzhou.JPG" width="160px" id="me">
+            <img src="images/kzhou.JPG" width="170px" id="me">
         </div>
         <div style="float: left">
             <h1>Kaiyang Zhou</h1>
             <p>
                 PhD Student <br>
                 <a href="http://vision.eecs.qmul.ac.uk/">Vision Group</a>, <a href="http://www.eecs.qmul.ac.uk/">School of EECS</a><br>
-                <a href="http://www.qmul.ac.uk/">Queen Mary University of London </a><br>
+                <a href="http://www.qmul.ac.uk/">Queen Mary University of London</a> <br>
                 Mile End Road, London, E1 4NS <br>
                 Email: k dot surname at qmul dot ac dot uk <br> <br>
                 <a href="https://github.com/KaiyangZhou">Github</a> /
-                <a href="https://scholar.google.com/citations?user=dnlQlKcAAAAJ&hl=en">Google Scholar</a>
+                <a href="https://scholar.google.co.uk/citations?user=gRIejugAAAAJ&hl=en">Google Scholar</a>
             </p>
         </div>
     </div>
@@ -118,6 +69,7 @@ a.link2poster:hover {
     <div class="container">
         <h2>News</h2>
         <ul>
+            <li>I am doing an internship at <a href="https://research.samsung.com/aicenter_cambridge">Samsung AI Centre, Cambridge</a>.</li>
             <li>One paper accepted in BMVC'18 as oral presentation.</li>
             <li>Pytorch implementation of our AAAI'18 paper is released <a href="https://github.com/KaiyangZhou/pytorch-vsumm-reinforce">here</a>.</li>
             <li>Released pytorch implementations of deep person reid models (<a href="https://github.com/KaiyangZhou/deep-person-reid">link</a>).
@@ -129,36 +81,33 @@ a.link2poster:hover {
     <div class="container">
         <h2>Publications</h2>
         <p align="justify">
-            <b>Video Summarisation by Classification with Deep Reinforcement Learning</b>. <br>
-            Kaiyang Zhou, Tao Xiang, Andrea Cavallaro. <br>
-            <em>British Machine Vision Conference (BMVC)</em>, Newcastle upon Tyne, UK, 2018. <b>(Oral)</b> <br>
-            <a class="link2paper" href="http://arxiv.org/abs/1807.03089">paper</a>
-            <a class="link2slides" href="http://www.eecs.qmul.ac.uk/~kz303/vsumm-qlearn/bmvc18_slides.pdf">slides</a>
+            <a href="http://arxiv.org/abs/1807.03089">Video Summarisation by Classification with Deep Reinforcement Learning</a>. <br>
+            <b>Kaiyang Zhou</b>, Tao Xiang, Andrea Cavallaro. <br>
+            <em>British Machine Vision Conference</em> (<b>BMVC</b>), 2018. <b>(Oral)</b> <br>
+            <a href="http://www.eecs.qmul.ac.uk/~kz303/vsumm-qlearn/bmvc18_slides.pdf">slides</a>
         </p>
         <p align="justify">
-            <b>Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward</b>. <br>
-            Kaiyang Zhou, Yu Qiao, Tao Xiang. <br>
-            <em>AAAI Conference on Artificial Intelligence (AAAI)</em>, New Orleans, Lousiana, 2018. <b>(Oral)</b> <br>
-            <a class="link2paper" href="https://arxiv.org/abs/1801.00054">paper</a>
-            <a class="link2code" href="https://github.com/KaiyangZhou/vsumm-reinforce">Theano code</a>
-            <a class="link2code" href="https://github.com/KaiyangZhou/pytorch-vsumm-reinforce">Pytorch code</a>
-            <a class="link2slides" href="http://www.eecs.qmul.ac.uk/~kz303/vsumm-reinforce/aaai18_slides.pdf">slides</a>
+            <a href="https://arxiv.org/abs/1801.00054">Deep Reinforcement Learning for Unsupervised Video Summarization with Diversity-Representativeness Reward</a>. <br>
+            <b>Kaiyang Zhou</b>, Yu Qiao, Tao Xiang. <br>
+            <em>AAAI Conference on Artificial Intelligence</em> (<b>AAAI</b>), 2018. <b>(Oral)</b> <br>
+            <a href="http://www.eecs.qmul.ac.uk/~kz303/vsumm-reinforce/aaai18_slides.pdf">slides</a> /
+            <a href="https://github.com/KaiyangZhou/vsumm-reinforce">theano code</a> /
+            <a href="https://github.com/KaiyangZhou/pytorch-vsumm-reinforce">pytorch code</a>
         </p>
         <p align="justify">
-            <b>Detecting Humans in RGB-D Data with CNNs</b>. <br>
-            Kaiyang Zhou, Adeline Paiement, Majid Mirmehdi. <br>
-            <em>IAPR International Conference on Machine Vision Applications (MVA)</em>, Nagoya, Japan, 2017. <br>
-            <a class="link2paper" href="files/MVA17.pdf">paper</a>
-            <a class="link2code" href="https://github.com/KaiyangZhou/ROI-Selection">Matlab code</a>
+            <a href="files/MVA17.pdf">Detecting Humans in RGB-D Data with CNNs</a>. <br>
+            <b>Kaiyang Zhou</b>, Adeline Paiement, Majid Mirmehdi. <br>
+            <em>IAPR International Conference on Machine Vision Applications</em> (<b>MVA</b>), 2017. <br>
+            <a href="https://github.com/KaiyangZhou/ROI-Selection">matlab code</a>
         </p>
     </div>
 
     <div class="container">
         <h2>Teaching</h2>
         <p align="justify">
-            <a href="http://www.eecs.qmul.ac.uk/profiles/zhoukaiyang.html" target="_blank"><b>TA, School of EECS, QMUL</b></a> <br>
+            <b>TA, School of EECS, QMUL</b> <br>
             - ECS797 Machine Learning for Visual Data Analysis (Spring 2018) <br>
-            - ECS708 Machine Learning (Fall 2017) <br>
+            - ECS708 Machine Learning (Fall 2017, Fall 2018) <br>
         </p>
     </div>
 

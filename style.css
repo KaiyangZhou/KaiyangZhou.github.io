@@ -18,7 +18,7 @@ h3 {
 }
 
 a:link, a:visited {
-  text-decoration: none;
+  text-decoration: underline;
   display: inline-block;
   text-align: center;
   color: #1772d0;

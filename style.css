@@ -5,18 +5,6 @@ body {
   padding-top: 100px;
 }
 
-h1 {
-  font-size: 24px;
-}
-
-h2 {
-  font-size: 20px;
-}
-
-h3 {
-  font-size: 18px;
-}
-
 a:link, a:visited {
   text-decoration: underline;
   display: inline-block;

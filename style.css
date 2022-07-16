@@ -25,9 +25,9 @@ li {
 }
 
 .navbar {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
   position: fixed;
   top: 0px;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 0px;
 }

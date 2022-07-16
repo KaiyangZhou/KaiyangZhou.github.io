@@ -3,6 +3,7 @@ body {
   margin:0 auto;
   font-family: times new roman;
   padding-top: 100px;
+  background-color: #ffffff;
 }
 
 a:link, a:visited {
@@ -29,5 +30,4 @@ li {
   position: fixed;
   top: 0px;
   width: 100%;
-  padding-bottom: 0px;
 }

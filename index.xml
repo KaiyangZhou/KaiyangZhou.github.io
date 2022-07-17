@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kaiyang Zhou&#39;s Homepage</title>
+    <link>https://kaiyangzhou.github.io/</link>
+    <description>Recent content on Kaiyang Zhou&#39;s Homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://kaiyangzhou.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title></title>
+      <link>https://kaiyangzhou.github.io/profile/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaiyangzhou.github.io/profile/</guid>
+      <description>Profile Bio Dr. Kaiyang Zhou is currently a postdoctoral researcher at Nanyang Technological University, Singapore, working with Prof. Ziwei Liu and Prof. Chen Change Loy. He obtained his PhD in Computer Science (2020) from the University of Surrey, UK, under the supervision of Prof. Tao Xiang. Prior to that, he received his MSc with Distinction (2016) from the University of Bristol, UK; BSc with 1st class honor (2015) from Ulster University, UK; BEng (2015) from Fujian Normal University, China.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://kaiyangzhou.github.io/publications/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaiyangzhou.github.io/publications/</guid>
+      <description>Publications Google Scholar | Semantic Scholar | DBLP
+Please visit my Google Scholar page for an up-to-date list of papers.
+2022 Learning to Prompt for Vision-Language Models
+Kaiyang Zhou, Jingkang Yang, Chen Change Loy, Ziwei Liu
+International Journal of Computer Vision (IJCV), 2022
+arxiv | code
+Panoptic Scene Graph Generation
+Jingkang Yang, Yi Zhe Ang, Zujin Guo, Kaiyang Zhou, Wayne Zhang, Ziwei Liu
+European Conference on Computer Vision (ECCV), 2022</description>
+    </item>
+    
+  </channel>
+</rss>

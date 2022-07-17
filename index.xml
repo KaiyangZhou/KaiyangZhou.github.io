@@ -33,5 +33,16 @@ arxiv (coming soon)
 Open-Vocabulary DETR with Conditional Matching</description>
     </item>
     
+    <item>
+      <title></title>
+      <link>https://kaiyangzhou.github.io/teaching/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://kaiyangzhou.github.io/teaching/</guid>
+      <description> Teaching Nanyang Technological University Lecturer / Guest Lecturer
+“Open-World Visual Recognition” for AI6126: Advanced Computer Vision (1 Apr 2022) “Object Detection” in the OpenMMLab Workshop (28-30 June 2021) Queen Mary University of London Teaching Assistant
+ECS797: Machine Learning for Visual Data Analytics (Spring 2018) ECS708: Machine Learning (Fall 2017, Fall 2018) </description>
+    </item>
+    
   </channel>
 </rss>

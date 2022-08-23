@@ -31,7 +31,7 @@
       
       <guid>https://kaiyangzhou.github.io/news/</guid>
       <description>Please follow my Twitter / Zhihu if you would like to receive the latest updates about my research and open-source projects.
-Latest Papers Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models Please visit my Google Scholar page for an up-to-date list of papers.</description>
+Latest Papers Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models MixStyle Neural Networks for Domain Generalization and Adaptation Please visit my Google Scholar page for an up-to-date list of papers.</description>
     </item>
     
     <item>
@@ -53,11 +53,11 @@ Latest Papers Domain Generalization: A Survey Panoptic Scene Graph Generation Ne
 2022 Domain Generalization: A Survey
 Kaiyang Zhou, Ziwei Liu, Yu Qiao, Tao Xiang, Chen Change Loy
 IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
-arxiv | code
+abstract | pdf | code
 Learning to Prompt for Vision-Language Models
 Kaiyang Zhou, Jingkang Yang, Chen Change Loy, Ziwei Liu
 International Journal of Computer Vision (IJCV), 2022
-arxiv | code
+abstract | pdf | code
 Panoptic Scene Graph Generation
 Jingkang Yang, Yi Zhe Ang, Zujin Guo, Kaiyang Zhou, Wayne Zhang, Ziwei Liu</description>
     </item>

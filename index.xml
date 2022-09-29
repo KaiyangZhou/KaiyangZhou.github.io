@@ -31,7 +31,7 @@
       
       <guid>https://kaiyangzhou.github.io/news/</guid>
       <description>Call for Papers: IJCV Special Issue on The Promises and Dangers of Large Vision Models. (Paper submission deadline: March 1st, 2023.) Please follow my Twitter / Zhihu if you would like to receive the latest updates about my research and open-source projects.
-Latest Papers On-Device Domain Generalization Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models MixStyle Neural Networks for Domain Generalization and Adaptation Please visit my Google Scholar page for an up-to-date list of papers.</description>
+Latest Papers On-Device Domain Generalization OpenOOD: Benchmarking Generalized Out-of-Distribution Detection Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models MixStyle Neural Networks for Domain Generalization and Adaptation Please visit my Google Scholar page for an up-to-date list of papers.</description>
     </item>
     
     <item>
@@ -54,12 +54,9 @@ Latest Papers On-Device Domain Generalization Domain Generalization: A Survey Pa
 Kaiyang Zhou, Yuanhan Zhang, Yuhang Zang, Jingkang Yang, Chen Change Loy, Ziwei Liu
 arXiv preprint, 2022
 abstract | pdf | code
-Domain Generalization: A Survey
-Kaiyang Zhou, Ziwei Liu, Yu Qiao, Tao Xiang, Chen Change Loy
-IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 2022
-abstract | pdf | code
-Learning to Prompt for Vision-Language Models
-Kaiyang Zhou, Jingkang Yang, Chen Change Loy, Ziwei Liu</description>
+OpenOOD: Benchmarking Generalized Out-of-Distribution Detection
+Jingkang Yang, Pengyun Wang, Dejian Zou, Zitang Zhou, Kunyuan Ding, Wenxuan Peng, Haoqi Wang, Guangyao Chen, Bo Li, Yiyou Sun, Xuefeng Du, Kaiyang Zhou, Wayne Zhang, Dan Hendrycks, Yixuan Li, Ziwei Liu
+Neural Information Processing Systems (NeurIPS) Track on Datasets and Benchmarks, 2022</description>
     </item>
     
     <item>

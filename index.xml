@@ -31,7 +31,7 @@
       
       <guid>https://kaiyangzhou.github.io/news/</guid>
       <description>[Sep 2022] Call for Papers: IJCV Special Issue on The Promises and Dangers of Large Vision Models. (Paper submission deadline: March 1st, 2023.) [Sep 2022] Launching The AI Talks, an initiative aiming to democratize AI through open talks. Please follow my Twitter / Zhihu if you would like to receive the latest updates about my research and open-source projects.
-Latest Papers Unified Vision and Language Prompt Learning On-Device Domain Generalization OpenOOD: Benchmarking Generalized Out-of-Distribution Detection Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models MixStyle Neural Networks for Domain Generalization and Adaptation Please visit my Google Scholar page for an up-to-date list of papers.</description>
+Latest Papers Learning to Augment via Implicit Differentiation for Domain Generalization Unified Vision and Language Prompt Learning On-Device Domain Generalization OpenOOD: Benchmarking Generalized Out-of-Distribution Detection Domain Generalization: A Survey Panoptic Scene Graph Generation Neural Prompt Search Full-Spectrum Out-of-Distribution Detection Dynamic Instance Domain Adaptation Open-Vocabulary DETR with Conditional Matching Conditional Prompt Learning for Vision-Language Models Learning to Prompt for Vision-Language Models MixStyle Neural Networks for Domain Generalization and Adaptation Please visit my Google Scholar page for an up-to-date list of papers.</description>
     </item>
     
     <item>
@@ -50,16 +50,16 @@ Latest Papers Unified Vision and Language Prompt Learning On-Device Domain Gener
       
       <guid>https://kaiyangzhou.github.io/publications/</guid>
       <description>Google Scholar | Semantic Scholar | DBLP
-2022 Unified Vision and Language Prompt Learning
+2022 Learning to Augment via Implicit Differentiation for Domain Generalization
+Tingwei Wang, Da Li, Kaiyang Zhou, Tao Xiang, Yi-Zhe Song
+British Machine Vision Conference (BMVC), 2022
+abstract | pdf
+Unified Vision and Language Prompt Learning
 Yuhang Zang, Wei Li, Kaiyang Zhou, Chen Huang, Chen Change Loy
 arXiv preprint, 2022
 abstract | pdf | code
 On-Device Domain Generalization
-Kaiyang Zhou, Yuanhan Zhang, Yuhang Zang, Jingkang Yang, Chen Change Loy, Ziwei Liu
-arXiv preprint, 2022
-abstract | pdf | code
-OpenOOD: Benchmarking Generalized Out-of-Distribution Detection
-Jingkang Yang, Pengyun Wang, Dejian Zou, Zitang Zhou, Kunyuan Ding, Wenxuan Peng, Haoqi Wang, Guangyao Chen, Bo Li, Yiyou Sun, Xuefeng Du, Kaiyang Zhou, Wayne Zhang, Dan Hendrycks, Yixuan Li, Ziwei Liu</description>
+Kaiyang Zhou, Yuanhan Zhang, Yuhang Zang, Jingkang Yang, Chen Change Loy, Ziwei Liu</description>
     </item>
     
     <item>

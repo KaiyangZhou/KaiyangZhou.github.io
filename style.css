@@ -18,3 +18,15 @@ body {
     background-color: #FFF;
     color: #000;
 }
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: orange;
+}

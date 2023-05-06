@@ -30,3 +30,7 @@ a:visited {
 a:hover {
     color: orange;
 }
+
+li {
+    margin: 5px;
+}

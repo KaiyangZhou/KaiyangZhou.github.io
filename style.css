@@ -34,3 +34,31 @@ a:hover {
 li {
     margin: 5px;
 }
+
+.profile-table {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile-img {
+    margin-right: 20px;
+}
+
+.profile-text {
+    text-align: left;
+}
+
+@media only screen and (max-width: 768px) {
+    .profile-table {
+        flex-direction: column;
+    }
+
+    .profile-img {
+        margin: 0;
+    }
+
+    .profile-text {
+        text-align: center;
+    }
+}

@@ -1,22 +1,22 @@
 body {
     padding: 0;
     margin: 0;
-    background-color: #808080;
-    color: #000000;
+    background-color: #fff;
+    color: #222;
     font-size: 16px; /* default 16px */
     font-family: Arial, sans-serif;
     line-height: 1.4;
 }
 
 #contents {
-    width: 80%;
+    width: 61.8%;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 30px;
     padding-right: 30px;
-    background-color: #FFFFFF;
-    color: #000000;
+    background-color: #fff;
+    color: #222;
 }
 
 

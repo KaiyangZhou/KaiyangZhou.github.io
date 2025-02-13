@@ -9,7 +9,7 @@ body {
 }
 
 #contents {
-    width: 61.8%;
+    width: 800px;
     margin: 0 auto;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -61,5 +61,9 @@ li {
 
     .profile-text {
         text-align: center;
+    }
+
+    #contents {
+        width: 61.8%;
     }
 }

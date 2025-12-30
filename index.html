@@ -1,126 +1,272 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Kaiyang Zhou's Home Page</title>
-
-    <link rel="stylesheet" href="style.css">
-
     <meta charset="UTF-8">
-    <meta name="description" content="Kaiyang Zhou's Home Page">
-    <meta name="keywords" content="Kaiyang Zhou">
-    <meta name="author" content="Kaiyang Zhou">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaiyang Zhou | Hong Kong Baptist University</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,500;0,600;1,400&family=Source+Sans+3:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="#about" class="nav-link">About</a>
+            <a href="#news" class="nav-link">News</a>
+            <a href="#research" class="nav-link">Research</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#teaching" class="nav-link">Teaching</a>
+            <a href="#services" class="nav-link">Services</a>
+        </div>
+    </nav>
 
-<div id="contents">
+    <main class="container">
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="about-header">
+                <div class="photo-container">
+                    <img src="photo.jpg" alt="Kaiyang Zhou" class="profile-photo">
+                </div>
+                <div class="about-intro">
+                    <h1>Kaiyang Zhou</h1>
+                    <p class="title">Assistant Professor</p>
+                    <p class="affiliation">Department of Computer Science<br>Hong Kong Baptist University</p>
+                    <p class="email"><a id="email-link"></a></p>
+                </div>
+            </div>
+            
+            <div class="about-content">
+                <p>
+                    Prof. Kaiyang Zhou is an Assistant Professor in the Department of Computer Science at Hong Kong Baptist University.
+                    His research interests include machine learning, computer vision, and multimodality.
+                    His research has been published in leading conference venues, including CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, and AAAI,
+                    as well as in top journals like IEEE TPAMI, IEEE TIP, and IJCV. His work has been cited over 18,000 times.
+                    He is currently an associate editor for the International Journal of Computer Vision and regularly serves as an area chair
+                    for prestigious conferences such as CVPR, ECCV, NeurIPS, ICML, and ICLR. Before joining HKBU, he was a postdoc at
+                    Nanyang Technological University, Singapore, working with Prof. <a href="https://liuziwei7.github.io/" target="_blank">Ziwei Liu</a>
+                    and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/" target="_blank">Chen Change Loy</a>. He received his PhD in Computer Science
+                    from the University of Surrey, UK, under the supervision of Prof. <a href="https://www.surrey.ac.uk/people/tao-xiang" target="_blank">Tao Xiang</a>.
+                </p>
+                
+                <div class="social-links">
+                    <a href="https://scholar.google.com/citations?user=gRIejugAAAAJ" target="_blank" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+                        Google Scholar
+                    </a>
+                    <a href="https://github.com/KaiyangZhou" target="_blank" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        GitHub
+                    </a>
+                    <a href="https://twitter.com/kaiyangzhou" target="_blank" class="social-link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+                        Twitter
+                    </a>
+                </div>
+            </div>
+        </section>
 
-<div class="profile-table">
-  <img class="profile-img" src="images/ky-bu.jpg" width="180">
-  <div class="profile-text">
-    <h2> Kaiyang Zhou </h2>
-    <p>
-      Assistant Professor <br>
-      <a href="https://www.comp.hkbu.edu.hk/">Department of Computer Science</a> <br>
-      <a href="https://www.hkbu.edu.hk/">Hong Kong Baptist University</a> <br>
-      Email: kyzhou [at] hkbu.edu.hk
-    </p>
-    <p>
-      <a href="https://scholar.google.com/citations?user=gRIejugAAAAJ">Google Scholar</a> |
-      <a href="https://github.com/KaiyangZhou">Github</a> |
-      <a href="https://twitter.com/kaiyangzhou">Twitter</a>
-    </p>
-  </div>
-</div>
+        <!-- News Section -->
+        <section id="news" class="section">
+            <h2>News</h2>
+            <ul class="news-list">
+                <li><span class="news-date">Dec 2025</span> Invited to serve as area chair of ECCV 2026.</li>
+                <li><span class="news-date">Nov 2025</span> Invited to serve as area chair of ICML 2026.</li>
+                <li><span class="news-date">Sep 2025</span> Our edited book <a href="https://link.springer.com/book/10.1007/978-3-031-94969-2" target="_blank">Large Vision-Language Models</a> is online.</li>
+                <li><span class="news-date">Aug 2025</span> Invited to serve as area chair of ICLR 2026.</li>
+                <li><span class="news-date">Aug 2025</span> Invited to serve as area chair of CVPR 2026.</li>
+                <li><span class="news-date">Jul 2025</span> Invited to serve as area chair of AAAI 2026.</li>
+            </ul>
+        </section>
 
-<hr noshade>
+        <!-- Research Section -->
+        <section id="research" class="section">
+            <h2>Research</h2>
+            
+            <p class="section-intro">
+                My research lies at the intersection of machine learning and computer vision. 
+                I am particularly interested in developing ML algorithms that can learn effectively from limited supervision, 
+                generalize across domains, and understand and interact with the real world through multiple modalities. 
+                My goal is to build AI systems that can see, reason, and act safely and reliably in the unpredictable physical
+                world.
+            </p>
 
-<p>
-Prof. Kaiyang Zhou is an Assistant Professor in the Department of Computer Science at Hong Kong Baptist University. His research interests include machine learning, computer vision, multimodality, generalization, and efficiency. His research has been published in leading conference venues, including CVPR, ICCV, ECCV, NeurIPS, ICLR, ICML, and AAAI, as well as in top journals like IEEE TPAMI, IEEE TIP, and IJCV. His work has been cited over 18,000 times. He is currently an associate editor for the International Journal of Computer Vision and regularly serves as an area chair for prestigious conferences such as CVPR, ECCV, NeurIPS, ICML, and ICLR. Before joining HKBU, he was a postdoc at Nanyang Technological University, Singapore, working with Prof. <a href="https://liuziwei7.github.io/">Ziwei Liu</a> and Prof. <a href="https://www.mmlab-ntu.com/person/ccloy/">Chen Change Loy</a>. He received his PhD in Computer Science from the University of Surrey, UK, under the supervision of Prof. <a href="https://www.surrey.ac.uk/people/tao-xiang">Tao Xiang</a>.
-</p>
+            <div class="resource-bar">
+                <a href="https://scholar.google.com/citations?hl=en&user=gRIejugAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="resource-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
+                    Publications
+                </a>
+                <a href="https://www.maifoundations.com/" target="_blank" class="resource-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
+                    Blog
+                </a>
+                <a href="https://github.com/maifoundations" target="_blank" class="resource-link">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    Code & Projects
+                </a>
+                <a href="https://huggingface.co/maifoundations" target="_blank" class="resource-link">
+                    <span class="hf-icon">🤗</span>
+                    Models & Datasets
+                </a>
+            </div>
 
-<p>
-Quick links:
-<a href="team.html">Team</a> |
-<a href="https://www.maifoundations.com/" target="_blank">Research</a> |
-<a href="https://scholar.google.com/citations?hl=en&user=gRIejugAAAAJ&view_op=list_works&sortby=pubdate" target="_blank">Publications</a> |
-<a href="https://github.com/maifoundations" target="_blank">Software</a> |
-<a href="https://huggingface.co/maifoundations" target="_blank">Models and Datasets</a>
-</p>
+            <h3>Current Research Focuses</h3>
+            
+            <div class="research-areas">
+                <div class="research-card">
+                    <h4>Reasoning</h4>
+                    <p>Developing models that can perform complex reasoning across visual and textual modalities.</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2511.16670" class="paper-link">DualMindVLM</a>
+                        <a href="https://arxiv.org/pdf/2505.14677" class="paper-link">Visionary-R1</a>
+                    </div>
+                </div>
 
-<h3> News </h3>
-<ul>
-    <li> [2025-12] Invited to serve as area chair of ECCV 2026. </li>
-    <li> [2025-11] Invited to serve as area chair of ICML 2026. </li>
-    <li> [2025-09] Our edited book <a href="https://link.springer.com/book/10.1007/978-3-031-94969-2">Large Vision-Language Models</a> is online. </li>
-    <li> [2025-08] Invited to serve as area chair of CVPR 2026 and ICLR 2026. </li>
-    <li> [2025-07] Invited to serve as area chair of AAAI 2026. </li>
-    <!-- <details>
-    <summary><i>Older News & Activities</i></summary>
-    <li> [2025-01] Gave a talk at <a href="https://www.comp.hkbu.edu.hk/wsb2025/">IAPR/IEEE Winter School on Biometrics 2025</a> (<a href="https://drive.google.com/file/d/1FHn2hMmAOXUg1Ok7li9REUZh4IKXblzM/view?usp=sharing">slides</a>). </li>
-    <li> [2024-12] Invited to serve as ICML 2025 area chair. </li>
-    <li> [2024-10] <a href="https://link.springer.com/journal/11263/updates/27704554">Call for Papers</a>: IJCV Special Issue on Visual Domain Generalization in Real-World Applications. </li>
-    <li> [2024-09] Invited to serve as CVPR 2025 area chair. </li>
-    <li> [2024-08] Invited to serve as ICLR 2025 area chair. </li>
-    <li> [2024-06] Invited to serve as AAAI 2025 senior program committee. </li>
-    <li> [2024-06] We're organizing a workshop on <a href="https://prompting-in-vision.github.io/index_cvpr24.html">Prompting in Vision</a> at CVPR 2024. </li>
-    <li> [2024-05] Invited to serve as BMVC 2024 area chair. </li>
-    <li> [2024-04] <a href="https://green-fomo.github.io/ECCV2024/call.html">Call for Papers</a>: ECCV 2024 Workshop on Green Foundation Models. </li>
-    <li> [2024-04] Invited to serve as NeurIPS 2024 area chair. </li>
-    <li> [2024-02] <a href="https://prompting-in-vision.github.io/index_cvpr24.html">Call for Papers</a>: CVPR 2024 Workshop on Prompting in Vision. </li>
-    <li> [2023-12] Invited to serve as ECCV 2024 area chair. </li>
-    <li> [2023-10] Gave a talk at <a href="http://valser.org/article-697-1.html">VALSE</a>. </li>
-    <li> [2023-08] Gave a talk at <a href="https://icaigc.org/workshops.html">AIGC-2023 Workshop on Trustworthy Foundation Models under Imperfect Data</a>. </li>
-    <li> [2023-08] Gave a talk at <a href="https://www.cair-cas.org.hk/article/ijcai-medical-large-models">IJCAI-2023 Symposium Session on Medical Large Models</a>. </li>
-    <li> [2023-08] Invited to serve as CVPR 2024 area chair. </li>
-    <li> [2023-08] Invited to join the editorial board of International Journal of Computer Vision as associate editor. </li>
-    <li> [2023-07] Gave a talk at the University of Tokyo (<a href="https://prompting-in-vision.github.io/slides/cvpr23/lecture-1a.pdf">slides</a> & <a href="https://youtu.be/fIoeCI3gH94">video</a>). </li>
-    <li> [2023-06] We're organizing a tutorial on <a href="https://prompting-in-vision.github.io/">Prompting in Vision</a> at CVPR 2023. </li>
-    <li> [2023-01] <a href="https://domaingen.github.io/">Call for Papers</a>: ICLR 2023 workshop on what do we need for successful domain generalization? </li>
-    <li> [2022-09] <a href="assets/cfp_ijcv_lvms.html">Call for Papers</a>: IJCV Special Issue on The Promises and Dangers of Large Vision Models. </li>
-  </details> -->
-</ul>
+                <div class="research-card">
+                    <h4>Grounding</h4>
+                    <p>Connecting language understanding with visual perception for accurate spatial and semantic grounding.</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2507.02859" class="paper-link">GCoT</a>
+                    </div>
+                </div>
 
-<h3> Recent Research </h3>
-<ul>
-    <li> <a href="https://arxiv.org/abs/2512.21334">Streaming Video Instruction Tuning</a> </li>
-    <li> <a href="https://www.maifoundations.com/blog/dualmindvlm/">Learning to Think Fast and Slow for Visual Language Models</a> </li>
-    <li> <a href="https://www.maifoundations.com/blog/humblebench/">HumbleBench: Measuring Epistemic Humility in Multimodal LLMs</a> </li>
-    <li> <a href="https://www.maifoundations.com/blog/gcot/">Grounded Chain-of-Thought Makes Multimodal LLMs More Data-Efficient</a> </li>
-    <li> <a href="https://www.maifoundations.com/blog/qzo/">Fine-Tuning 13B LLM or Stable Diffusion 3.5 Large Within a Single 24GB GPU</a> </li>
-    <li> <a href="https://www.maifoundations.com/blog/visionary-r1/">Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning</a> </li>
-</ul>
+                <div class="research-card">
+                    <h4>Video</h4>
+                    <p>Building multimodal foundation models for long video understanding and interaction.</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2512.21334" class="paper-link">Streamo</a>
+                    </div>
+                </div>
 
-<h3> Teaching </h3>
-<ul>
-  <li>
-    <b>Hong Kong Baptist University</b> <br>
-    <i>COMP7040: Advanced Topics in Computer Vision and Pattern Recognition</i> <br>
-    <i>COMP3076: AI and Generative Arts</i> <br>
-    <i>COMP7065: Innovative Laboratory</i>
-  </li>
-  <li>
-    <b>Nanyang Technological University</b> <br>
-    <i>AI6126 Guest Lecture: Open-World Visual Recognition</i> <br>
-    <i>OpenMMLab Workshop: Object Detection</i>
-  </li>
-  <li>
-    <b>Queen Mary University of London</b> <br>
-    <i>ECS797: Machine Learning for Visual Data Analytics</i> <br>
-    <i>ECS708: Machine Learning</i>
-  </li>
-</ul>
+                <div class="research-card">
+                    <h4>Safety</h4>
+                    <p>Ensuring AI systems are robust, trustworthy, and aligned with human values.</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2509.09658" class="paper-link">HumblebBench</a>
+                        <a href="https://www.arxiv.org/pdf/2509.25177" class="paper-link">LayerCD</a>
+                    </div>
+                </div>
 
-<h3> Academic Services </h3>
-<ul>
-<li> Associate Editor: International Journal of Computer Vision (IJCV) </li>
-<li> Guest Editor: IJCV Special Issue on <a href="assets/cfp_ijcv_lvms.html">The Promises and Dangers of Large Vision Models</a> </li>
-<li> Area Chair: ICML, ICLR, NeurIPS, CVPR, ECCV, BMVC, AAAI </li>
-<li> Organizing Committee: <a href="https://theaitalks.org">The AI Talks</a>, <a href="https://prompting-in-vision.github.io/index_cvpr23.html">CVPR'23 Tutorial on Prompting</a>, <a href="https://domaingen.github.io">ICLR'23 Workshop on DG</a>, <a href="https://prompting-in-vision.github.io/index_cvpr24.html">CVPR'24 Workshop on Prompting</a>, <a href="https://green-fomo.github.io/ECCV2024/index.html">ECCV'24 Workshop on Green Foundation Models</a>, etc. </li>
-</ul>
+                <div class="research-card">
+                    <h4>Efficiency</h4>
+                    <p>Building computationally efficient models that maintain high performance with reduced resources.</p>
+                    <div class="paper-links">
+                        <a href="https://arxiv.org/pdf/2505.13430" class="paper-link">QZO</a>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-</div>
+        <!-- Team Section -->
+        <section id="team" class="section">
+            <h2>Team</h2>
+            
+            <h3>PhD Students</h3>
+            <ul class="team-list">
+                <li><a href="https://jiaerxia.github.io/" target="_blank">Jiaer Xia</a> (2024 - Present)</li>
+                <li><a href="https://sifengshang.github.io/" target="_blank">Sifeng Shang</a> (2024 - Present)</li>
+                <li><a href="https://zhoujiayi003.github.io/" target="_blank">Jiayi Zhou</a> (2025 - Present)</li>
+                <li><a href="https://chenyulin-craig.github.io/" target="_blank">Chenyu Lin</a> (2025 - Present)</li>
+            </ul>
+
+            <h3>Research Assistants</h3>
+            <ul class="team-list">
+                <li><a href="https://panlinchao.github.io/" target="_blank">Linchao Pan</a> (2025 - Present)</li>
+                <li><a href="https://haichenhe.github.io/" target="_blank">Haichen He</a> (2025 - Present)</li>
+            </ul>
+
+            <h3>Alumni</h3>
+            <ul class="team-list">
+                <li><a href="https://yutchina.github.io/" target="_blank">Tong Yu</a> (RA 2025)</li>
+                <li><a href="https://tbbbk.github.io/" target="_blank">Bingkui Tong</a> (RA 2024-25, now PhD at MBZUAI)</li>
+            </ul>
+        </section>
+
+        <!-- Teaching Section -->
+        <section id="teaching" class="section">
+            <h2>Teaching</h2>
+            
+            <div class="teaching-list">
+                <div class="course">
+                    <span class="course-code">COMP 7040</span>
+                    <span class="course-name">Advanced Topics in Computer Vision and Pattern Recognition</span>
+                </div>
+                <div class="course">
+                    <span class="course-code">COMP 3076</span>
+                    <span class="course-name">AI and Generative Arts</span>
+                </div>
+                <div class="course">
+                    <span class="course-code">COMP 7065</span>
+                    <span class="course-name">Innovative Laboratory</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <h2>Services</h2>
+            
+            <ul class="services-list">
+                <li>Associate Editor, <em>International Journal of Computer Vision (IJCV)</em> (2023 - Present)</li>
+                <li>Guest Editor, <em>IJCV Special Issue on Visual Domain Generalization in Real-World Applications</em> (2024)</li>
+                <li>Guest Editor, <a href="https://link.springer.com/article/10.1007/s11263-023-01941-4" target="_blank">IJCV Special Issue on The Promises and Dangers of Large Vision Models</a> (2023)</li>
+                <li>Area Chair, <em>International Conference on Machine Learning (ICML)</em> (2025, 2026)</li>
+                <li>Area Chair, <em>International Conference on Learning Representations (ICLR)</em> (2025, 2026)</li>
+                <li>Area Chair, <em>Neural Information Processing Systems (NeurIPS)</em> (2024, 2025)</li>
+                <li>Area Chair, <em>Computer Vision and Pattern Recognition (CVPR)</em> (2024, 2026)</li>
+                <li>Area Chair, <em>European Conference on Computer Vision (ECCV)</em> (2024, 2026)</li>
+                <li>Area Chair, <em>AAAI Conference on Artificial Intelligence (AAAI)</em> (2023 - 2026)</li>
+                <li>Area Chair, <em>British Machine Vision Conference (BMVC)</em> (2022, 2024)</li>
+                <li>Organizer, <a href="https://cvpr25workshop.m-haris-khan.com/" target="_blank">CVPR 2025 Workshop on Domain Generalization</a></li>
+                <li>Organizer, <a href="https://green-fomo.github.io/ECCV2024/index.html" target="_blank">ECCV 2024 Workshop on Green Foundation Models</a></li>
+                <li>Organizer, <a href="https://prompting-in-vision.github.io/index_cvpr24.html" target="_blank">CVPR 2024 Workshop on Prompting in Vision </a></li>
+                <li>Organizer, <a href="https://prompting-in-vision.github.io/index_cvpr23.html" target="_blank">CVPR 2023 Tutorial on Prompting in Vision</a></li>
+                <li>Organizer, <a href="https://domaingen.github.io" target="_blank">ICLR 2023 Workshop on What Do We Need for Successful Domain Generalization</a></li>
+                <li>Organizer, <a href="https://theaitalks.org" target="_blank">The AI Talks</a></li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2024 Kaiyang Zhou. All rights reserved.</p>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top" aria-label="Back to top">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="18 15 12 9 6 15"></polyline>
+        </svg>
+    </button>
+
+    <script>
+        // Email obfuscation to prevent spam bots
+        (function() {
+            const u = 'kyzhou';
+            const d = 'hkbu.edu.hk';
+            const el = document.getElementById('email-link');
+            if (el) {
+                el.href = 'mail' + 'to:' + u + '@' + d;
+                el.textContent = u + '@' + d;
+            }
+        })();
+
+        // Back to top button
+        (function() {
+            const btn = document.getElementById('back-to-top');
+            
+            window.addEventListener('scroll', function() {
+                if (window.scrollY > 300) {
+                    btn.classList.add('visible');
+                } else {
+                    btn.classList.remove('visible');
+                }
+            });
+
+            btn.addEventListener('click', function() {
+                window.scrollTo({ top: 0, behavior: 'smooth' });
+            });
+        })();
+    </script>
 </body>
 </html>
+

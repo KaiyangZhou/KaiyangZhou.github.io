@@ -314,23 +314,94 @@ body {
     line-height: 1;
 }
 
-.research-areas {
-    display: grid;
-    gap: 0.75rem;
+/* Research Slider */
+.research-slider-container {
+    position: relative;
     margin-top: 0.75rem;
 }
 
+.research-areas {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+    padding: 0.5rem 0;
+    margin: 0 -0.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    
+    /* Hide scrollbar but keep functionality */
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+.research-areas::-webkit-scrollbar {
+    display: none;
+}
+
 .research-card {
+    flex: 0 0 280px;
+    min-width: 280px;
+    scroll-snap-align: start;
     background: var(--bg-card);
     border: 1px solid var(--border);
     border-radius: 8px;
-    padding: 1rem 1.25rem;
+    padding: 1.25rem;
     transition: all 0.2s ease;
 }
 
 .research-card:hover {
     border-color: var(--accent);
     background: var(--bg-hover);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.slider-nav {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 36px;
+    height: 36px;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    transition: all 0.2s ease;
+    z-index: 10;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.slider-nav:hover {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+}
+
+.slider-nav svg {
+    width: 18px;
+    height: 18px;
+}
+
+.slider-prev {
+    left: -18px;
+}
+
+.slider-next {
+    right: -18px;
+}
+
+/* Hide nav buttons on touch devices */
+@media (hover: none) {
+    .slider-nav {
+        display: none;
+    }
 }
 
 .research-card h4 {
@@ -565,6 +636,17 @@ body {
     }
 }
 
+@media (max-width: 768px) {
+    .slider-nav {
+        display: none;
+    }
+    
+    .research-card {
+        flex: 0 0 260px;
+        min-width: 260px;
+    }
+}
+
 @media (max-width: 480px) {
     .nav-container {
         gap: 0.8rem;
@@ -577,7 +659,9 @@ body {
     }
     
     .research-card {
-        padding: 1.25rem;
+        flex: 0 0 240px;
+        min-width: 240px;
+        padding: 1rem;
     }
 }
 

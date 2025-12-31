@@ -82,13 +82,13 @@
         <!-- Research Section -->
         <section id="research" class="section">
             <h2>Research</h2>
-            
+
             <p class="section-intro">
                 My research lies at the intersection of machine learning and computer vision. 
-                I am particularly interested in developing ML algorithms that can learn effectively from limited supervision, 
+                I am particularly interested in developing ML models that can learn effectively from limited supervision, 
                 generalize across domains, and understand and interact with the world through multiple modalities. 
-                My goal is to build AI systems that can see, reason, and act safely and reliably in the unpredictable physical
-                world.
+                My ultimate goal is to build AI that can see, reason, and act safely and reliably in the unpredictable physical world.
+                I am working on multimodal foundation models, with a focus on reasoning, grounding, safety, efficiency, and video understanding.
             </p>
 
             <div class="resource-bar">
@@ -109,51 +109,63 @@
                     Models & Datasets
                 </a>
             </div>
-
-            <h3>Current Research Focuses</h3>
             
-            <div class="research-areas">
-                <div class="research-card">
-                    <h4>Reasoning</h4>
-                    <p>Developing models that can perform complex reasoning across visual and textual modalities.</p>
-                    <div class="paper-links">
-                        <a href="https://arxiv.org/pdf/2511.16670" class="paper-link">DualMindVLM</a>
-                        <a href="https://arxiv.org/pdf/2505.14677" class="paper-link">Visionary-R1</a>
+            <div class="research-slider-container">
+                <button class="slider-nav slider-prev" aria-label="Previous">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="15 18 9 12 15 6"></polyline>
+                    </svg>
+                </button>
+                
+                <div class="research-areas">
+                    <div class="research-card">
+                        <h4>Reasoning</h4>
+                        <p>Thinking across modalities.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/pdf/2511.16670" class="paper-link">DualMindVLM</a>
+                            <a href="https://arxiv.org/pdf/2505.14677" class="paper-link">Visionary-R1</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="research-card">
-                    <h4>Grounding</h4>
-                    <p>Connecting language understanding with visual perception for accurate spatial and semantic grounding.</p>
-                    <div class="paper-links">
-                        <a href="https://arxiv.org/pdf/2507.02859" class="paper-link">GCoT</a>
+                    <div class="research-card">
+                        <h4>Grounding</h4>
+                        <p>Grounding language in pixels.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/pdf/2507.02859" class="paper-link">GCoT</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="research-card">
-                    <h4>Video</h4>
-                    <p>Building multimodal foundation models for long video understanding and interaction.</p>
-                    <div class="paper-links">
-                        <a href="https://arxiv.org/pdf/2512.21334" class="paper-link">Streamo</a>
+                    <div class="research-card">
+                        <h4>Video</h4>
+                        <p>Video understanding & interaction.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/pdf/2512.21334" class="paper-link">Streamo</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="research-card">
-                    <h4>Safety</h4>
-                    <p>Ensuring AI systems are robust, trustworthy, and aligned with human values.</p>
-                    <div class="paper-links">
-                        <a href="https://arxiv.org/pdf/2509.09658" class="paper-link">HumblebBench</a>
-                        <a href="https://www.arxiv.org/pdf/2509.25177" class="paper-link">LayerCD</a>
+                    <div class="research-card">
+                        <h4>Safety</h4>
+                        <p>Enhancing trustworthiness.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/pdf/2509.09658" class="paper-link">HumbleBench</a>
+                            <a href="https://www.arxiv.org/pdf/2509.25177" class="paper-link">LayerCD</a>
+                        </div>
                     </div>
-                </div>
 
-                <div class="research-card">
-                    <h4>Efficiency</h4>
-                    <p>Building computationally efficient models that maintain high performance with reduced resources.</p>
-                    <div class="paper-links">
-                        <a href="https://arxiv.org/pdf/2505.13430" class="paper-link">QZO</a>
+                    <div class="research-card">
+                        <h4>Efficiency</h4>
+                        <p>Computationally efficient models.</p>
+                        <div class="paper-links">
+                            <a href="https://arxiv.org/pdf/2505.13430" class="paper-link">QZO</a>
+                        </div>
                     </div>
                 </div>
+                
+                <button class="slider-nav slider-next" aria-label="Next">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                        <polyline points="9 18 15 12 9 6"></polyline>
+                    </svg>
+                </button>
             </div>
         </section>
 
@@ -265,6 +277,25 @@
             btn.addEventListener('click', function() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
+        })();
+
+        // Research slider navigation
+        (function() {
+            const slider = document.querySelector('.research-areas');
+            const prevBtn = document.querySelector('.slider-prev');
+            const nextBtn = document.querySelector('.slider-next');
+            
+            if (slider && prevBtn && nextBtn) {
+                const scrollAmount = 296; // card width + gap
+                
+                prevBtn.addEventListener('click', function() {
+                    slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
+                });
+                
+                nextBtn.addEventListener('click', function() {
+                    slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
+                });
+            }
         })();
     </script>
 </body>

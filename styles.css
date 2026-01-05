@@ -492,6 +492,14 @@ body {
 }
 
 /* Team Section */
+.team-intro {
+    margin-bottom: 0.75rem;
+}
+
+.team-intro .more-info-btn {
+    margin-top: 0;
+}
+
 .team-list {
     list-style: none;
     margin-top: 0.5rem;

@@ -205,16 +205,36 @@ body {
     text-decoration: underline;
 }
 
-/* Intro Line */
-.intro-line {
-    display: flex;
-    align-items: center;
-    gap: 0.75rem;
-    flex-wrap: wrap;
+/* Research Interests */
+.research-interests {
+    margin-bottom: 1rem;
 }
 
-.intro-line p {
-    margin-bottom: 0;
+.research-interests h3 {
+    margin-top: 0;
+    margin-bottom: 0.6rem;
+}
+
+.research-interests ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.research-interests li {
+    padding: 0.3rem 0.75rem;
+    background: var(--bg-card);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    font-size: 0.9rem;
+    color: var(--text-secondary);
+    transition: all 0.2s ease;
+}
+
+.research-interests li:hover {
+    border-color: var(--accent);
+    color: var(--accent);
 }
 
 /* More Info Button */

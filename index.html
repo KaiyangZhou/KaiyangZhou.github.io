@@ -99,10 +99,6 @@
             </p>
 
             <div class="resource-bar">
-                <a href="https://www.maifoundations.com/" target="_blank" class="resource-link">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19l7-7 3 3-7 7-3-3z"></path><path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path><path d="M2 2l7.586 7.586"></path><circle cx="11" cy="11" r="2"></circle></svg>
-                    Blog
-                </a>
                 <a href="https://scholar.google.com/citations?hl=en&user=gRIejugAAAAJ&view_op=list_works&sortby=pubdate" target="_blank" class="resource-link">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"><path d="M12 24a7 7 0 1 1 0-14 7 7 0 0 1 0 14zm0-24L0 9.5l4.838 3.94A8 8 0 0 1 12 9a8 8 0 0 1 7.162 4.44L24 9.5z"/></svg>
                     Full Publications
@@ -116,53 +112,79 @@
                     Models & Datasets
                 </a>
             </div>
-            
-            <div class="research-slider-container">
-                <button class="slider-nav slider-prev" aria-label="Previous">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="15 18 9 12 15 6"></polyline>
-                    </svg>
-                </button>
-                
-                <div class="research-areas">
-                    <div class="research-card">
-                        <h4>Vision</h4>
-                        <p>Perception, reasoning, and grounding</p>
-                        <div class="paper-links">
-                            <a href="https://arxiv.org/pdf/2512.21334" class="paper-link">Streamo</a>
-                            <a href="https://arxiv.org/pdf/2511.16670" class="paper-link">DualMindVLM</a>
-                            <a href="https://arxiv.org/pdf/2505.14677" class="paper-link">Visionary-R1</a>
-                            <a href="https://arxiv.org/pdf/2507.02859" class="paper-link">GCoT</a>
-                        </div>
-                    </div>
 
-                    <div class="research-card">
-                        <h4>Efficiency</h4>
-                        <p>Efficient foundation models</p>
-                        <div class="paper-links">
-                            <a href="https://arxiv.org/pdf/2505.13430" class="paper-link">QZO</a>
-                            <a href="https://arxiv.org/pdf/2203.05557" class="paper-link">CoCoOp</a>
-                            <a href="https://arxiv.org/pdf/2109.01134" class="paper-link">CoOp</a>
-                        </div>
-                    </div>
+            <h3>Selected Papers</h3>
+            The papers shown below give an overview of topics I am working on.
 
-                    <div class="research-card">
-                        <h4>Trustworthiness</h4>
-                        <p>Evaluation, safety, and robustness</p>
-                        <div class="paper-links">
-                            <a href="https://arxiv.org/pdf/2509.09658" class="paper-link">HumbleBench</a>
-                            <a href="https://arxiv.org/pdf/2509.25177" class="paper-link">LayerCD</a>
-                            <a href="https://arxiv.org/pdf/2104.02008" class="paper-link">MixStyle</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <button class="slider-nav slider-next" aria-label="Next">
-                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="9 18 15 12 9 6"></polyline>
-                    </svg>
-                </button>
-            </div>
+            <ul class="publications-list">
+                <li>
+                    <span class="pub-title">Streaming Video Instruction Tuning</span>
+                    <span class="pub-authors">Jiaer Xia, Peixian Chen, Mengdan Zhang, Xing Sun, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>arXiv, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2512.21334" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/Streamo" target="_blank">code</a>]
+                        [<a href="https://huggingface.co/datasets/maifoundations/Streamo-Instruct-465K" target="_blank">dataset</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Learning to Think Fast and Slow for Visual Language Models</span>
+                    <span class="pub-authors">Chenyu Lin, Cheng Chi, Jinlin Wu, Sharon Li, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>arXiv, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2511.16670" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/DualMindVLM" target="_blank">code</a>]
+                        [<a href="https://huggingface.co/maifoundations/DualMindVLM" target="_blank">model</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Visionary-R1: Mitigating Shortcuts in Visual Reasoning with Reinforcement Learning</span>
+                    <span class="pub-authors">Jiaer Xia, Yuhang Zang, Peng Gao, Sharon Li, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>arXiv, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2505.14677" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/Visionary-R1" target="_blank">code</a>]
+                        [<a href="https://huggingface.co/maifoundations/Visionary-R1" target="_blank">model</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Fine-tuning Quantized Neural Networks with Zeroth-order Optimization</span>
+                    <span class="pub-authors">Sifeng Shang, Jiayi Zhou, Chenyu Lin, Minxian Li, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>arXiv, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2505.13430" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/QZO" target="_blank">code</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Measuring Epistemic Humility in Multimodal Large Language Models</span>
+                    <span class="pub-authors">Bingkui Tong, Jiaer Xia, Sifeng Shang, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>arXiv, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2509.09658" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/HumbleBench" target="_blank">code</a>]
+                        [<a href="https://huggingface.co/datasets/maifoundations/HumbleBench" target="_blank">dataset</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Mitigating Hallucination in Multimodal LLMs with Layer Contrastive Decoding</span>
+                    <span class="pub-authors">Bingkui Tong, Jiaer Xia, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>NeurIPS Workshop on Multimodal Algorithmic Reasoning, 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://www.arxiv.org/pdf/2509.25177" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/LayerCD" target="_blank">code</a>]
+                    </span>
+                </li>
+                <li>
+                    <span class="pub-title">Bootstrapping Grounded Chain-of-Thought in Multimodal LLMs for Data-Efficient Model Adaptation</span>
+                    <span class="pub-authors">Jiaer Xia, Bingkui Tong, Yuhang Zang, Rui Shao, <strong>Kaiyang Zhou</strong></span>
+                    <span class="pub-venue"><em>ICCV (<strong>Highlight</strong>), 2025</em></span>
+                    <span class="pub-links">
+                        [<a href="https://arxiv.org/pdf/2507.02859" target="_blank">paper</a>]
+                        [<a href="https://github.com/maifoundations/GCoT" target="_blank">code</a>]
+                    </span>
+                </li>
+            </ul>
         </section>
 
         <!-- Team Section -->
@@ -291,25 +313,6 @@
             btn.addEventListener('click', function() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
-        })();
-
-        // Research slider navigation
-        (function() {
-            const slider = document.querySelector('.research-areas');
-            const prevBtn = document.querySelector('.slider-prev');
-            const nextBtn = document.querySelector('.slider-next');
-            
-            if (slider && prevBtn && nextBtn) {
-                const scrollAmount = 296; // card width + gap
-                
-                prevBtn.addEventListener('click', function() {
-                    slider.scrollBy({ left: -scrollAmount, behavior: 'smooth' });
-                });
-                
-                nextBtn.addEventListener('click', function() {
-                    slider.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-                });
-            }
         })();
 
         // More Info toggle

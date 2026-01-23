@@ -544,6 +544,44 @@ body {
     border-top: 1px solid var(--border-light);
 }
 
+/* Awards Section */
+.awards-list {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.awards-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.awards-list li:last-child {
+    border-bottom: none;
+}
+
+.award-year {
+    display: inline-block;
+    width: 50px;
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--accent);
+    flex-shrink: 0;
+}
+
+.awards-list a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.awards-list a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 /* Back to Top Button */
 .back-to-top {
     position: fixed;

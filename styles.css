@@ -371,6 +371,22 @@ body {
     margin-bottom: 0;
 }
 
+.publications-list li.pub-year-label {
+    border-left: none;
+    padding-left: 0;
+    padding-top: 1rem;
+    padding-bottom: 0.25rem;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-serif);
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-primary);
+}
+
+.publications-list li.pub-year-label:first-child {
+    padding-top: 0;
+}
+
 .pub-title {
     font-size: 1rem;
     font-weight: 500;

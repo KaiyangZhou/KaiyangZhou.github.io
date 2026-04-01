@@ -120,8 +120,6 @@ body {
     color: var(--text-secondary);
     margin-top: 1.25rem;
     margin-bottom: 0.5rem;
-    text-transform: uppercase;
-    letter-spacing: 0.08em;
 }
 
 .section-intro {

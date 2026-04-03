@@ -27,10 +27,17 @@
     /* Typography */
     --font-serif: 'Crimson Pro', Georgia, serif;
     --font-sans: 'Source Sans 3', -apple-system, BlinkMacSystemFont, sans-serif;
+    --fs-body: 17px;
     
     /* Spacing */
     --container-width: 800px;
     --section-gap: 0.1rem;
+    
+    /* Heading scale (used by h1–h4 everywhere) */
+    --fs-h1: 2.4rem;
+    --fs-h2: 1.8rem;
+    --fs-h3: 1.1rem;
+    --fs-h4: 0.95rem;
 }
 
 * {
@@ -46,12 +53,55 @@ html {
 
 body {
     font-family: var(--font-sans);
-    font-size: 17px;
+    font-size: var(--fs-body);
     line-height: 1.6;
     color: var(--text-primary);
     background-color: var(--bg-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+p {
+    font-size: var(--fs-body);
+}
+
+h1 {
+    font-family: var(--font-serif);
+    font-size: var(--fs-h1);
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.3rem;
+}
+
+h2 {
+    font-family: var(--font-serif);
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    color: var(--text-primary);
+    margin-bottom: 0.75rem;
+    padding-bottom: 0.4rem;
+    border-bottom: 2px solid var(--accent);
+    display: inline-block;
+}
+
+h3 {
+    font-family: var(--font-sans);
+    font-size: var(--fs-h3);
+    font-weight: 600;
+    color: var(--text-secondary);
+    margin-top: 1.25rem;
+    margin-bottom: 0.3rem;
+}
+
+h4 {
+    font-family: var(--font-sans);
+    font-size: var(--fs-h4);
+    font-weight: 600;
+    color: var(--text-muted);
+    margin-top: 1rem;
+    margin-bottom: 0.3rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
 }
 
 /* Navigation */
@@ -102,30 +152,9 @@ body {
     padding-top: 1rem;
 }
 
-.section h2 {
-    font-family: var(--font-serif);
-    font-size: 1.8rem;
-    font-weight: 500;
-    color: var(--text-primary);
-    margin-bottom: 0.75rem;
-    padding-bottom: 0.4rem;
-    border-bottom: 2px solid var(--accent);
-    display: inline-block;
-}
-
-.section h3 {
-    font-family: var(--font-sans);
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: var(--text-secondary);
-    margin-top: 1.25rem;
-    margin-bottom: 0.3rem;
-}
-
 .section-intro {
     color: var(--text-secondary);
     margin-bottom: 1rem;
-    font-size: 1.05rem;
 }
 
 /* About Section */
@@ -149,16 +178,7 @@ body {
     border: 3px solid var(--border);
 }
 
-.about-intro h1 {
-    font-family: var(--font-serif);
-    font-size: 2.4rem;
-    font-weight: 500;
-    color: var(--text-primary);
-    margin-bottom: 0.3rem;
-}
-
 .about-intro .title {
-    font-size: 1.15rem;
     color: var(--accent);
     font-weight: 500;
     margin-bottom: 0.3rem;
@@ -166,13 +186,11 @@ body {
 
 .about-intro .affiliation {
     color: var(--text-secondary);
-    font-size: 1rem;
     line-height: 1.5;
 }
 
 .about-intro .email {
     margin-top: 0.5rem;
-    font-size: 0.95rem;
 }
 
 .about-intro .email a {
@@ -338,6 +356,35 @@ body {
     text-decoration: underline;
 }
 
+/* Talks Section */
+.talks-list {
+    list-style: none;
+    margin-top: 0.5rem;
+}
+
+.talks-list li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-light);
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.talks-list li:last-child {
+    border-bottom: none;
+}
+
+.talks-list a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.talks-list a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 /* Research Section */
 .resource-bar {
     display: flex;
@@ -347,7 +394,7 @@ body {
 }
 
 .resource-link .hf-icon {
-    font-size: 1.1rem;
+    font-size: var(--fs-h3);
     line-height: 1;
 }
 
@@ -376,7 +423,7 @@ body {
     padding-bottom: 0.25rem;
     margin-bottom: 0.5rem;
     font-family: var(--font-serif);
-    font-size: 1.3rem;
+    font-size: var(--fs-h3);
     font-weight: 500;
     color: var(--text-primary);
 }
@@ -425,17 +472,6 @@ body {
 .pub-links a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
-}
-
-.section h4 {
-    font-family: var(--font-sans);
-    font-size: 0.95rem;
-    font-weight: 600;
-    color: var(--text-muted);
-    margin-top: 1rem;
-    margin-bottom: 0.3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
 
 /* Team Section */
@@ -550,7 +586,6 @@ body {
     padding: 1.5rem;
     text-align: center;
     color: var(--text-muted);
-    font-size: 0.9rem;
     border-top: 1px solid var(--border-light);
 }
 
@@ -588,44 +623,6 @@ body {
 }
 
 .awards-list a:hover {
-    color: var(--accent-hover);
-    text-decoration: underline;
-}
-
-/* Talks Section */
-.talks-list {
-    list-style: none;
-    margin-top: 0.5rem;
-}
-
-.talks-list li {
-    padding: 0.5rem 0;
-    border-bottom: 1px solid var(--border-light);
-    color: var(--text-secondary);
-    line-height: 1.5;
-}
-
-.talks-list li:last-child {
-    border-bottom: none;
-}
-
-.talk-year {
-    display: inline-block;
-    width: 50px;
-    font-size: 0.85rem;
-    font-weight: 600;
-    color: var(--accent);
-    flex-shrink: 0;
-}
-
-.talks-list a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-.talks-list a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
 }
@@ -691,8 +688,8 @@ body {
         text-align: center;
     }
     
-    .about-intro h1 {
-        font-size: 2rem;
+    :root {
+        --fs-h1: 2rem;
     }
     
     .profile-photo {
@@ -721,8 +718,8 @@ body {
         justify-content: center;
     }
     
-    .section h2 {
-        font-size: 1.5rem;
+    :root {
+        --fs-h2: 1.5rem;
     }
 }
 

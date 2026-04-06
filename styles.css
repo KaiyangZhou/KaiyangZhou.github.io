@@ -6,9 +6,7 @@
 :root {
     /* Warm paper-like palette - easy on the eyes */
     --bg-primary: #f5f0e6;
-    --bg-secondary: #ebe5d9;
     --bg-card: #fffbf5;
-    --bg-hover: #f0e9dc;
     
     /* Warm text colors */
     --text-primary: #3d3529;
@@ -33,11 +31,10 @@
     --container-width: 800px;
     --section-gap: 0.1rem;
     
-    /* Heading scale (used by h1–h4 everywhere) */
+    /* Heading scale */
     --fs-h1: 2.4rem;
     --fs-h2: 1.8rem;
     --fs-h3: 1.1rem;
-    --fs-h4: 0.95rem;
 }
 
 * {
@@ -59,10 +56,6 @@ body {
     background-color: var(--bg-primary);
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-}
-
-p {
-    font-size: var(--fs-body);
 }
 
 h1 {
@@ -91,17 +84,6 @@ h3 {
     color: var(--text-secondary);
     margin-top: 1.25rem;
     margin-bottom: 0.3rem;
-}
-
-h4 {
-    font-family: var(--font-sans);
-    font-size: var(--fs-h4);
-    font-weight: 600;
-    color: var(--text-muted);
-    margin-top: 1rem;
-    margin-bottom: 0.3rem;
-    text-transform: uppercase;
-    letter-spacing: 0.05em;
 }
 
 /* Navigation */
@@ -341,7 +323,6 @@ h4 {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--accent);
-    flex-shrink: 0;
 }
 
 .news-list a {
@@ -515,7 +496,7 @@ h4 {
 
 .course {
     display: grid;
-    grid-template-columns: 120px 1fr auto;
+    grid-template-columns: 120px 1fr;
     gap: 1rem;
     padding: 0.5rem 1rem;
     background: var(--bg-card);
@@ -533,11 +514,6 @@ h4 {
 
 .course-name {
     color: var(--text-primary);
-}
-
-.course-term {
-    color: var(--text-muted);
-    font-size: 0.9rem;
 }
 
 /* Services Section */
@@ -612,7 +588,6 @@ h4 {
     font-size: 0.85rem;
     font-weight: 600;
     color: var(--accent);
-    flex-shrink: 0;
 }
 
 .awards-list a {
@@ -704,10 +679,6 @@ h4 {
     .course {
         grid-template-columns: 1fr;
         gap: 0.25rem;
-    }
-    
-    .course-term {
-        font-size: 0.85rem;
     }
 }
 

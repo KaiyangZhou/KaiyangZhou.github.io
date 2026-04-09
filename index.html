@@ -15,7 +15,6 @@
             <a href="#about" class="nav-link">About</a>
             <a href="#news" class="nav-link">News</a>
             <a href="#talks" class="nav-link">Talks</a>
-            <a href="#team" class="nav-link">Team</a>
             <a href="#research" class="nav-link">Research</a>
             <a href="#teaching" class="nav-link">Teaching</a>
             <a href="#services" class="nav-link">Services</a>
@@ -101,38 +100,6 @@
             <h2>Talks</h2>
             <ul class="talks-list">
                 <li><a href="https://drive.google.com/file/d/11Cl8oJyXysng83YqXJX2p2TD4pi68Ly9/view?usp=sharing" target="_blank">Multimodal Foundation Models: Reasoning, Grounding, Awareness, and Adaptation</a></li>
-            </ul>
-        </section>
-
-        <!-- Team Section -->
-        <section id="team" class="section">
-            <h2>Team</h2>
-            
-            <div class="team-intro">
-                <button id="join-us-btn" class="more-info-btn">
-                    <span class="btn-text">Join Us</span>
-                    <svg class="btn-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-                        <polyline points="6 9 12 15 18 9"></polyline>
-                    </svg>
-                </button>
-            </div>
-            
-            <div id="join-us-content" class="detailed-bio">
-                <p>
-                    We are looking for self-motivated PhD students/research assistants interested in LLM/VLM/Agents/Robotics.
-                    Ideal candidates should have a strong background in ML/CV/NLP, solid coding skills, and prior research experience.
-                    If you are passionate about doing cutting-edge AI research with us, please send me an email with your CV,
-                    transcripts, relevant publications, and research statement (if any). For postdoc application,
-                    you are also welcome to reach out but funding depends on availability.
-                </p>
-            </div>
-            
-            <h3>PhD Students</h3>
-            <ul class="team-list">
-                <li><a href="https://jiaerxia.github.io/" target="_blank">Jiaer Xia</a>, 2024-</li>
-                <li><a href="https://sifengshang.github.io/" target="_blank">Sifeng Shang</a>, 2024-</li>
-                <li><a href="https://zhoujiayi003.github.io/" target="_blank">Jiayi Zhou</a>, 2025-</li>
-                <li><a href="https://chenyulin-craig.github.io/" target="_blank">Chenyu Lin</a>, 2025-</li>
             </ul>
         </section>
 
@@ -669,20 +636,6 @@
             btn.addEventListener('click', function() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
-        })();
-
-        // Join Us toggle
-        (function() {
-            const btn = document.getElementById('join-us-btn');
-            const joinUsContent = document.getElementById('join-us-content');
-            
-            if (btn && joinUsContent) {
-                btn.addEventListener('click', function() {
-                    const isExpanded = joinUsContent.classList.toggle('expanded');
-                    btn.classList.toggle('expanded', isExpanded);
-                    btn.querySelector('.btn-text').textContent = isExpanded ? 'Hide Info' : 'Join Us';
-                });
-            }
         })();
     </script>
 </body>

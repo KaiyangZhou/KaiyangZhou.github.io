@@ -203,72 +203,11 @@ h3 {
     text-decoration: underline;
 }
 
-/* More Info Button */
-.more-info-btn {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.3rem;
-    padding: 0.2rem 0.6rem;
-    background: var(--bg-card);
-    border: 1px solid var(--border);
-    border-radius: 4px;
-    color: var(--text-muted);
-    font-family: var(--font-sans);
-    font-size: 0.85rem;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.2s ease;
-}
-
-.more-info-btn:hover {
-    color: var(--accent);
-    border-color: var(--accent);
-    background: var(--accent-subtle);
-}
-
-.more-info-btn .btn-icon {
-    width: 14px;
-    height: 14px;
-    transition: transform 0.3s ease;
-}
-
-.more-info-btn.expanded .btn-icon {
-    transform: rotate(180deg);
-}
-
-/* Detailed Bio (Expandable) */
-.detailed-bio {
-    max-height: 0;
-    overflow: hidden;
-    opacity: 0;
-    transition: max-height 0.4s ease, opacity 0.3s ease, margin 0.3s ease;
-    margin-top: 0;
-}
-
-.detailed-bio.expanded {
-    max-height: 500px;
-    opacity: 1;
-    margin-top: 1rem;
-}
-
-.detailed-bio p {
-    margin-bottom: 0.75rem;
-    color: var(--text-secondary);
-}
-
-.detailed-bio p:last-child {
-    margin-bottom: 0;
-}
-
 .social-links {
     display: flex;
     gap: 0.6rem;
     margin-top: 0.75rem;
     flex-wrap: wrap;
-}
-
-.about-content .social-links {
-    margin-top: 1rem;
 }
 
 .social-link,
@@ -451,38 +390,6 @@ h3 {
 }
 
 .pub-links a:hover {
-    color: var(--accent-hover);
-    text-decoration: underline;
-}
-
-/* Team Section */
-.team-intro {
-    margin-bottom: 0.75rem;
-}
-
-.team-intro .more-info-btn {
-    margin-top: 0;
-}
-
-.team-list {
-    list-style: none;
-    margin-top: 0.35rem;
-    line-height: 1.45;
-}
-
-.team-list li {
-    padding: 0;
-    color: var(--text-secondary);
-}
-
-.team-list a {
-    color: var(--accent);
-    text-decoration: none;
-    font-weight: 500;
-    transition: color 0.2s ease;
-}
-
-.team-list a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
 }

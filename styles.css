@@ -489,6 +489,7 @@ h3 {
     border-bottom: none;
 }
 
+.talk-year,
 .award-year {
     display: inline-block;
     width: 50px;

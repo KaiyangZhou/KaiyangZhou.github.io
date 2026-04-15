@@ -279,7 +279,7 @@ h3 {
 /* Talks Section */
 .talks-list {
     list-style: none;
-    margin-top: 0.5rem;
+    margin-top: 0;
 }
 
 .talks-list li {
@@ -301,6 +301,30 @@ h3 {
 }
 
 .talks-list a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
+/* Team Section */
+.team-list {
+    list-style: none;
+    margin-top: 0;
+}
+
+.team-list li {
+    padding: 0;
+    color: var(--text-secondary);
+    line-height: 1.5;
+}
+
+.team-list a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.team-list a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
 }

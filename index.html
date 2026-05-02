@@ -613,7 +613,7 @@
 
 
     <footer class="footer">
-        <p>Last update: Apr 2026</p>
+        <p>Last update: May 2026</p>
     </footer>
 
     <!-- Back to Top Button -->
@@ -650,6 +650,46 @@
             btn.addEventListener('click', function() {
                 window.scrollTo({ top: 0, behavior: 'smooth' });
             });
+        })();
+
+        // Highlight nav link for the section in view
+        (function () {
+            const nav = document.querySelector('.nav');
+            const navLinks = document.querySelectorAll('.nav .nav-link');
+            const sections = Array.prototype.slice.call(document.querySelectorAll('main section[id]'));
+            if (!nav || !sections.length) return;
+
+            function updateActiveNav() {
+                // Use viewport coords: active = last section whose top has crossed the
+                // "reader line" below the nav. Slack matches when the heading feels on-screen
+                // (avoids off-by-one vs document scroll + margin collapse).
+                var navBottom = nav.getBoundingClientRect().bottom;
+                var slack = Math.min(160, Math.max(48, window.innerHeight * 0.26));
+                var readerLine = navBottom + slack;
+                var activeId = sections[0].id;
+                for (var i = 0; i < sections.length; i++) {
+                    var top = sections[i].getBoundingClientRect().top;
+                    if (top <= readerLine) activeId = sections[i].id;
+                }
+                navLinks.forEach(function (link) {
+                    link.classList.toggle('active', link.getAttribute('href') === '#' + activeId);
+                });
+            }
+
+            var scheduled = false;
+            function onScrollOrResize() {
+                if (scheduled) return;
+                scheduled = true;
+                requestAnimationFrame(function () {
+                    updateActiveNav();
+                    scheduled = false;
+                });
+            }
+
+            window.addEventListener('scroll', onScrollOrResize, { passive: true });
+            window.addEventListener('resize', onScrollOrResize);
+            window.addEventListener('hashchange', updateActiveNav);
+            updateActiveNav();
         })();
     </script>
 </body>

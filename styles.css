@@ -121,6 +121,20 @@ h3 {
     color: var(--accent);
 }
 
+.nav-link.active {
+    color: var(--accent);
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 0.28em;
+    text-decoration-color: var(--accent);
+}
+
+.nav-link.active:hover {
+    color: var(--accent-hover);
+    text-decoration-color: var(--accent-hover);
+}
+
 /* Main Container */
 .container {
     max-width: var(--container-width);

@@ -153,6 +153,18 @@ h3 {
     margin-bottom: 1rem;
 }
 
+.section-intro a {
+    color: var(--accent);
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+.section-intro a:hover {
+    color: var(--accent-hover);
+    text-decoration: underline;
+}
+
 /* About Section */
 .about-header {
     display: flex;
@@ -224,8 +236,7 @@ h3 {
     flex-wrap: wrap;
 }
 
-.social-link,
-.resource-link {
+.social-link {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
@@ -240,15 +251,13 @@ h3 {
     transition: all 0.2s ease;
 }
 
-.social-link:hover,
-.resource-link:hover {
+.social-link:hover {
     color: var(--accent);
     border-color: var(--accent);
     background: var(--accent-subtle);
 }
 
-.social-link svg,
-.resource-link svg {
+.social-link svg {
     width: 15px;
     height: 15px;
 }
@@ -341,19 +350,6 @@ h3 {
 .team-list a:hover {
     color: var(--accent-hover);
     text-decoration: underline;
-}
-
-/* Research Section */
-.resource-bar {
-    display: flex;
-    gap: 1.5rem;
-    margin: 1rem 0;
-    flex-wrap: wrap;
-}
-
-.resource-link .hf-icon {
-    font-size: var(--fs-h3);
-    line-height: 1;
 }
 
 /* Publications Section */

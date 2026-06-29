@@ -82,8 +82,8 @@ h3 {
     font-size: var(--fs-h3);
     font-weight: 600;
     color: var(--text-secondary);
-    margin-top: 1.25rem;
-    margin-bottom: 0.3rem;
+    margin-bottom: 0.25rem;
+    margin-top: 0.5rem;
 }
 
 /* Navigation */
